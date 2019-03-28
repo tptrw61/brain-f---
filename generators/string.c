@@ -5,6 +5,7 @@
 int main(void) {
 	int q, r, i;
 	int c;
+	printf("string (\n");
 	printf("[-]>[-]\n");
 	while ((c = getchar()) != EOF) {
 		if (c == 0)
@@ -66,5 +67,6 @@ int main(void) {
 		putchar(10); //newline
 	}
 	printf("<[<]\n");
+	printf(")\n");
 	return 0;
 }

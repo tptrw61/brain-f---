@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo -n '>[.>]<[<]'
+echo 'print string ('
+echo '>[.>]<[<]'
+echo ')'
