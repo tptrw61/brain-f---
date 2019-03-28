@@ -5,7 +5,7 @@ CFLAGS := -Wall
 CXXFLAGS := -Wall
 
 intdir := ../interpreter
-int := bf
+int := bf bfscan
 
 gendir := ../generators
 gen := printString readLine string
