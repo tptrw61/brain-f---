@@ -45,4 +45,4 @@ variants: $(var)
 all: $(exe)
 
 clean:
-	-rm $(exe)
+	rm -f $(exe)
